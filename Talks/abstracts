@@ -1,4 +1,5 @@
 Hypergraph Modularities and Clustering
+
 François Théberge, TIMC and University of Ottawa
 
 Several graph clustering algorithms rely on the graph modularity measure to find good partitions of the vertices. 
@@ -10,4 +11,22 @@ and semi-supervised problems. For hypergraphs, we show that it is equivalent to 
 leading to a re-definition of the problems on weighted graphs. This approach has been proposed recently to define a 
 pseudo-hypergraph modularity, which can be used in graph-based clustering algorithms such as the Louvain algorithm. 
 We discuss this approach, as well as other ideas and open questions.
+
+---
+
+Comparing Graph Embeddings
+
+François Théberge, TIMC and University of Ottawa
+
+graph embedding is a mapping of the vertices of a graph into k-dimensional vectors. 
+Good embeddings should capture the graph topology and vertex-to-vertex relationship. 
+Several graph embedding algorithms are available and for each algorithm, parameters need to be set 
+such as the dimension of the embedding space. As a result, selecting the best embedding is a 
+challenging task and very often requires domain experts. We propose an unsupervised framework for 
+the computation of divergence scores to compare the quality of different embeddings for a given graph, 
+where quality is defined as preserving the community structure. The framework relies on two main ingredients: 
+(i) a good, stable graph clustering algorithm, and (ii) a generalization of the Chung-Lu model for graphs 
+which incorporates the geometry provided by the graph embedding. In order to validate our framework, 
+we ran a large number of experiments with synthetic networks as well as real-world networks, using various 
+embedding algorithms. We will also discuss open questions such as possible extensions to hypergraphs.
 
