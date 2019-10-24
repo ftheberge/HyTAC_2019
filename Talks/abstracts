@@ -1,0 +1,13 @@
+Hypergraph Modularities and Clustering
+François Théberge, TIMC and University of Ottawa
+
+Several graph clustering algorithms rely on the graph modularity measure to find good partitions of the vertices. 
+In the first part of the talk, we briefly review graph modularity and how it relates to the Chung-Lu model. 
+We show that the Chung-Lu model can be naturally extended to hypergraphs, leading to new definitions of hypergraph modularity. 
+We present a simple hypergraph clustering algorithm based on one such definition.
+Next, we re-visit the commonly used definitions of graph and hypergraph Laplacian, as they appear in unsupervised 
+and semi-supervised problems. For hypergraphs, we show that it is equivalent to a random walk on the vertices, 
+leading to a re-definition of the problems on weighted graphs. This approach has been proposed recently to define a 
+pseudo-hypergraph modularity, which can be used in graph-based clustering algorithms such as the Louvain algorithm. 
+We discuss this approach, as well as other ideas and open questions.
+
