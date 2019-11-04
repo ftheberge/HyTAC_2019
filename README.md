@@ -13,7 +13,7 @@ Learning with Hypergraphs: Clustering, Classification, and Embedding:
 https://papers.nips.cc/paper/3128-learning-with-hypergraphs-clustering-classification-and-embedding.pdf
 
 Our pre-print on comparing embeddings (in J. of Complex Networks soon):
-https://arxiv.org/abs/1810.04816
+https://arxiv.org/abs/1906.04562
 
 More graph-related material, including Python notebooks:
 https://github.com/ftheberge/ComplexNetworks2019
